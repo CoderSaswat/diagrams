@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6" pages="2">
   <diagram name="Page-1" id="Wmn_84JWRWUWVyfxqlVD">
     <mxGraphModel dx="1520" dy="1268" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,6 +29,41 @@
           <mxGeometry x="-18" y="-47" width="143" height="26" as="geometry" />
         </mxCell>
         <mxCell id="A5duki39P6SoIUkTwszF-9" value="channels are used for communication and synchronization between goroutines. this is used to share data between go routines. sender sends the data and&lt;br&gt;receiver receives the data. there us 2 types of channels&lt;div&gt;&lt;b&gt;unbuffered channel&lt;/b&gt; : this type of chanel doesn&#39;t hold any data. to send and receive data both sender and receiver has to be ready. both sending and reveiving&lt;br&gt;operations are blocking here. the sending operation will be blocked unless and until receiver is ready to receive the data and vice-versa&lt;br&gt;&lt;b&gt;buffered channel&lt;/b&gt; : it has a size of storing the element. data can send upto the specified size without waiting for receiver&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-45" y="-26" width="863" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="Guq1jRIqcO5r6SKUmQSn">
+    <mxGraphModel dx="1520" dy="1268" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-0" />
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-1" parent="vdLH1_-mbUG6TMQfLLA1-0" />
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-2" value="&lt;b&gt;&lt;u&gt;Golang&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="400" y="-468" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-3" value="1. high level programming language developed by google. famous for its simplicity and efficient memory management.&lt;br&gt;&lt;b&gt;simplicity &lt;/b&gt;: very easy syntax, have less concepts, they tried to tell we can build efficient applications with limited concepts&lt;br&gt;&lt;b&gt;efficient-memory-management&lt;/b&gt; : because of its great concurrency model, there&#39;s something called goroutine. which you can think of as a light weight tread.&amp;nbsp;&lt;br&gt;it takes very less size(2kb). compared to other programming language like java each request comes it run run in a thread(OS thread) size - 4MB.&lt;br&gt;in cloud memory is very costly.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="10" y="-400" width="853" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-4" value="&lt;b&gt;1. What is golnag&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="-27" y="-430" width="117" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-5" value="&lt;b&gt;2. concurrency in golang&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="-27" y="-312" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-6" value="concurrency in golang is achieved using goroutines and channels.&amp;nbsp;&lt;br&gt;&lt;b&gt;goroutines&lt;/b&gt;: goroutines you can think of as light weight treads(2kb). very memory efficient if you compare with other programming language like java. os tread (1mb).&lt;br&gt;you can make a function as goroutine by adding go keyword in starting, then it will be executed concurrently.&lt;br&gt;&lt;b&gt;channels&lt;/b&gt; : channels are used for communication and synchronization between goroutines. can be created using make keyword and used to send and receive data&lt;br&gt;between goroutines. used for data sharing between goroutines." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="-40" y="-282" width="893" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-7" value="&lt;b&gt;3. interface in golang&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="-16" y="-173" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-8" value="&lt;b&gt;interface&lt;/b&gt; is the contract we can say. it contains with abstract methods with no body. if we have a interface and any struct is implementing the interface,&lt;br&gt;it has to define all the abstract methods that interface contains. interface in go is implicit in nature, we don&#39;t usually write any key to implement the interface.&lt;br&gt;rather if we have a interface and any struct have defined all the abstract method that the interface contains, then go compiler will automatically detect it and&lt;br&gt;will tell this struct is implementing this interface. if we have a common work to do, but the implementation of the work is different, based on different types.&lt;br&gt;example : finding area of square and rectangle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="-39" y="-151" width="841" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-9" value="&lt;b&gt;4. channels in golang&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
+          <mxGeometry x="-18" y="-47" width="143" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vdLH1_-mbUG6TMQfLLA1-10" value="channels are used for communication and synchronization between goroutines. this is used to share data between go routines. sender sends the data and&lt;br&gt;receiver receives the data. there us 2 types of channels&lt;div&gt;&lt;b&gt;unbuffered channel&lt;/b&gt; : this type of chanel doesn&#39;t hold any data. to send and receive data both sender and receiver has to be ready. both sending and reveiving&lt;br&gt;operations are blocking here. the sending operation will be blocked unless and until receiver is ready to receive the data and vice-versa&lt;br&gt;&lt;b&gt;buffered channel&lt;/b&gt; : it has a size of storing the element. data can send upto the specified size without waiting for receiver&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vdLH1_-mbUG6TMQfLLA1-1">
           <mxGeometry x="-45" y="-26" width="863" height="84" as="geometry" />
         </mxCell>
       </root>
