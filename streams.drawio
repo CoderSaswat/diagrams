@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3">
   <diagram name="Page-1" id="jvBQvcaUdin9Y6pFNq8T">
-    <mxGraphModel>
+    <mxGraphModel dx="1113" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gU-fGdNlkJrMIANs7rz4-1" value="✅ Filtering (&lt;code data-start=&quot;6710&quot; data-end=&quot;6720&quot;&gt;filter()&lt;/code&gt;)&lt;br data-start=&quot;6721&quot; data-end=&quot;6724&quot;&gt;&#xa;✅ Mapping (&lt;code data-start=&quot;6735&quot; data-end=&quot;6742&quot;&gt;map()&lt;/code&gt;)&lt;br data-start=&quot;6743&quot; data-end=&quot;6746&quot;&gt;&#xa;✅ Reducing (&lt;code data-start=&quot;6758&quot; data-end=&quot;6768&quot;&gt;reduce()&lt;/code&gt;)&lt;br data-start=&quot;6769&quot; data-end=&quot;6772&quot;&gt;&#xa;✅ Sorting (&lt;code data-start=&quot;6783&quot; data-end=&quot;6793&quot;&gt;sorted()&lt;/code&gt;)&lt;br data-start=&quot;6794&quot; data-end=&quot;6797&quot;&gt;&#xa;✅ Finding Min/Max (&lt;code data-start=&quot;6816&quot; data-end=&quot;6823&quot;&gt;min()&lt;/code&gt;, &lt;code data-start=&quot;6825&quot; data-end=&quot;6832&quot;&gt;max()&lt;/code&gt;)&lt;br data-start=&quot;6833&quot; data-end=&quot;6836&quot;&gt;&#xa;✅ Counting Elements (&lt;code data-start=&quot;6857&quot; data-end=&quot;6866&quot;&gt;count()&lt;/code&gt;)&lt;br data-start=&quot;6867&quot; data-end=&quot;6870&quot;&gt;&#xa;✅ Collecting (&lt;code data-start=&quot;6884&quot; data-end=&quot;6895&quot;&gt;collect()&lt;/code&gt;)&lt;br data-start=&quot;6896&quot; data-end=&quot;6899&quot;&gt;&#xa;✅ Joining (&lt;code data-start=&quot;6910&quot; data-end=&quot;6932&quot;&gt;Collectors.joining()&lt;/code&gt;)&lt;br data-start=&quot;6933&quot; data-end=&quot;6936&quot;&gt;&#xa;✅ Grouping (&lt;code data-start=&quot;6948&quot; data-end=&quot;6973&quot;&gt;Collectors.groupingBy()&lt;/code&gt;)&lt;br data-start=&quot;6974&quot; data-end=&quot;6977&quot;&gt;&#xa;✅ Handling Duplicates (&lt;code data-start=&quot;7000&quot; data-end=&quot;7012&quot;&gt;distinct()&lt;/code&gt;)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="270" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
